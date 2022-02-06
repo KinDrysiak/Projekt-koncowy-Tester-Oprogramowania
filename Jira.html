@@ -1,0 +1,323 @@
+<html
+        xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<title>Jira</title>
+<style type="text/css">
+table {
+    mso-displayed-decimal-separator:"\,";
+    mso-displayed-thousand-separator:" ";
+}
+body
+{
+    margin: 0px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color:black;
+}
+
+</style>
+<META HTTP-EQUIV="Content-Type" Content="application/vnd.ms-excel; charset=UTF-8">
+<!-- JRA-7598 - ensure fields (e.g. description) occupy only one cell - even fields containing newlines. -->
+<!--
+Vertical align all cells to the top, in order to align all issue rows of issuetable to the top,
+since Excel does not use or save the css files it is hardcoded here.
+-->
+<style>
+@page
+{
+mso-page-orientation:landscape;
+margin:.25in .25in .5in .25in;
+mso-header-margin:.5in;
+mso-footer-margin:.25in;
+mso-footer-data:"&R&P of &N";
+mso-horizontal-page-align:center;
+mso-vertical-page-align:center;
+}
+
+td.issuekey,
+td.issuetype,
+td.status {
+    mso-style-parent: "";
+    mso-number-format: \@;
+    text-align: left;
+}
+br
+{
+    mso-data-placement:same-cell;
+}
+
+td
+{
+    vertical-align: top;
+}
+</style>
+
+<!--[if gte mso 9]><xml>
+<x:ExcelWorkbook>
+<x:ExcelWorksheets>
+<x:ExcelWorksheet>
+<x:Name>general_report</x:Name>
+<x:WorksheetOptions>
+<x:Print>
+<x:ValidPrinterInfo/>
+</x:Print>
+</x:WorksheetOptions>
+</x:ExcelWorksheet>
+</x:ExcelWorksheets>
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+<body>
+
+<table border="1">
+    <tr bgcolor="#205081" height="30">
+        <td colspan="11">
+            <img src="https://magda76.atlassian.net/images/icon-jira-software-logo.png" width="57" height="30" border="0" alt="Jira">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="11">
+            <a href="https://magda76.atlassian.net/issues/?jql=order+by+created+DESC">Jira</a>
+        </td>
+    </tr>
+    <tr>
+                <td colspan="11">
+            Wyświetlane zgłoszenia <strong>6</strong> w <strong>06/lut/22 5:15 PM</strong>.
+        </td>
+    </tr>
+</table>
+
+
+
+
+                                        <table id="issuetable" class="aui " border="1" cellpadding="3" cellspacing="1" width="100%">
+                        <thead>
+        <tr class="rowHeader">
+            
+                                                            <th class="colHeaderLink headerrow-issuetype" data-id="issuetype">
+                            Typ zgłoszenia
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-issuekey" data-id="issuekey">
+                            Klucz
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-summary" data-id="summary">
+                            Podsumowanie
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-assignee" data-id="assignee">
+                            Osoba przypisana
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-reporter" data-id="reporter">
+                            Osoba zgłaszająca
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-priority" data-id="priority">
+                            Priorytet
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-status" data-id="status">
+                            Status
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-resolution" data-id="resolution">
+                            Rozwiązanie
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-created" data-id="created">
+                            Utworzono
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-updated" data-id="updated">
+                            Zaktualizowano
+                                                    </th>
+                                                
+                                                            <th class="colHeaderLink headerrow-duedate" data-id="duedate">
+                            Termin
+                                                    </th>
+                                                                    </tr>
+    </thead>
+    <tbody>
+                    
+
+                <tr id="issuerow10008" rel="10008" data-issuekey="PK-6" class="issuerow">
+                                            <td class="issuetype">    Błąd w programie
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PK-6" href="https://magda76.atlassian.net/browse/PK-6">PK-6</a>
+</td>
+                                            <td class="summary"><p>
+                Sortowanie sukienek według ceny od najwyższej do najniższej nie działa
+    </p>
+</td>
+                                            <td class="assignee">            Magdalena Kokot
+    </td>
+                                            <td class="reporter">            Magdalena Kokot
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Gotowe&lt;/span&gt;">Gotowe</span>    </td>
+                                            <td class="resolution">    Gotowe
+</td>
+                                            <td class="created"> 03/sty/22 7:38 PM </td>
+                                            <td class="updated"> 04/sty/22 4:09 PM </td>
+                                            <td class="duedate">    03/sty/22
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10007" rel="10007" data-issuekey="PK-5" class="issuerow">
+                                            <td class="issuetype">    Błąd w programie
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PK-5" href="https://magda76.atlassian.net/browse/PK-5">PK-5</a>
+</td>
+                                            <td class="summary"><p>
+                Compare multiple dresses is working
+    </p>
+</td>
+                                            <td class="assignee">            Magdalena Kokot
+    </td>
+                                            <td class="reporter">            Magdalena Kokot
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Gotowe&lt;/span&gt;">Gotowe</span>    </td>
+                                            <td class="resolution">    Gotowe
+</td>
+                                            <td class="created"> 03/sty/22 6:41 PM </td>
+                                            <td class="updated"> 03/sty/22 6:43 PM </td>
+                                            <td class="duedate">    03/sty/22
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10006" rel="10006" data-issuekey="PK-4" class="issuerow">
+                                            <td class="issuetype">    Zadanie
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PK-4" href="https://magda76.atlassian.net/browse/PK-4">PK-4</a>
+</td>
+                                            <td class="summary"><p>
+                Compare multiple dresses by user
+    </p>
+</td>
+                                            <td class="assignee">            Magdalena Kokot
+    </td>
+                                            <td class="reporter">            Magdalena Kokot
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Gotowe&lt;/span&gt;">Gotowe</span>    </td>
+                                            <td class="resolution">    Gotowe
+</td>
+                                            <td class="created"> 03/sty/22 2:49 PM </td>
+                                            <td class="updated"> 04/sty/22 5:31 PM </td>
+                                            <td class="duedate">    07/sty/22
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10005" rel="10005" data-issuekey="PK-3" class="issuerow">
+                                            <td class="issuetype">    Zadanie
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PK-3" href="https://magda76.atlassian.net/browse/PK-3">PK-3</a>
+</td>
+                                            <td class="summary"><p>
+                Sortowanie sukienek według ceny
+    </p>
+</td>
+                                            <td class="assignee">            Magdalena Kokot
+    </td>
+                                            <td class="reporter">            Magdalena Kokot
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Gotowe&lt;/span&gt;">Gotowe</span>    </td>
+                                            <td class="resolution">    Gotowe
+</td>
+                                            <td class="created"> 03/sty/22 2:10 PM </td>
+                                            <td class="updated"> 03/sty/22 7:41 PM </td>
+                                            <td class="duedate">    07/sty/22
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10004" rel="10004" data-issuekey="PK-2" class="issuerow">
+                                            <td class="issuetype">    Epika
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PK-2" href="https://magda76.atlassian.net/browse/PK-2">PK-2</a>
+</td>
+                                            <td class="summary"><p>
+                Compare products by button &quot;add to compare&quot;
+    </p>
+</td>
+                                            <td class="assignee">            Magdalena Kokot
+    </td>
+                                            <td class="reporter">            Magdalena Kokot
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Gotowe&lt;/span&gt;">Gotowe</span>    </td>
+                                            <td class="resolution">    Gotowe
+</td>
+                                            <td class="created"> 03/sty/22 1:53 PM </td>
+                                            <td class="updated"> 03/sty/22 6:41 PM </td>
+                                            <td class="duedate">    03/sty/22
+</td>
+                    </tr>
+
+
+                <tr id="issuerow10003" rel="10003" data-issuekey="PK-1" class="issuerow">
+                                            <td class="issuetype">    Epika
+</td>
+                                            <td class="issuekey">
+
+    <a class="issue-link" data-issue-key="PK-1" href="https://magda76.atlassian.net/browse/PK-1">PK-1</a>
+</td>
+                                            <td class="summary"><p>
+                Sortowanie produktów 
+    </p>
+</td>
+                                            <td class="assignee">            Magdalena Kokot
+    </td>
+                                            <td class="reporter">            Magdalena Kokot
+    </td>
+                                            <td class="priority">           Medium
+    </td>
+                                            <td class="status">
+                <span class=" jira-issue-status-lozenge aui-lozenge jira-issue-status-lozenge-green jira-issue-status-lozenge-done aui-lozenge-subtle jira-issue-status-lozenge-max-width-medium" data-tooltip="&lt;span class=&quot;jira-issue-status-tooltip-title&quot;&gt;Gotowe&lt;/span&gt;">Gotowe</span>    </td>
+                                            <td class="resolution">    Gotowe
+</td>
+                                            <td class="created"> 03/sty/22 12:30 PM </td>
+                                            <td class="updated"> 03/sty/22 7:39 PM </td>
+                                            <td class="duedate">    07/sty/22
+</td>
+                    </tr>
+        </tbody>
+    </table>
+    <div class="end-of-stable-message"></div>
+            <table border="1" >
+<tr>
+    <td bgcolor="#dddddd" colspan="11"><font size="1">
+        Wygenerowane (Sun Feb 06 16:15:39 UTC 2022) przez Magdalena Kokot z użyciem systemu Jira 1001.0.0-SNAPSHOT#100191-sha1:7bb8b76b7f3b1b927905d960e42591c6a2801342.
+    </font></td>
+</tr>
+</table>
+
+</body>
+</html>
