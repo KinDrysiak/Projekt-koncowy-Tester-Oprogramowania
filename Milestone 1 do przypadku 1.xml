@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<milestone>
+	<id>M1</id>
+	<name>M1 version 1</name>
+	<description>Sprawdzić Test Case C1</description>
+		<completed>false</completed>
+		<stats>
+										<passed>
+			<percent>0</percent>
+			<count>0</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>100</percent>
+			<count>1</count>
+		</failed>
+																																																				</stats>	<runs>
+																		
+					<run>
+	<id>R1</id>
+	<name>Test Run do C1/4/2022</name>
+	<description>Sprawdzenie wyświetlania się sub-menu na stronie sklepu.</description>
+	<config></config>
+	<createdon>2022-01-04T11:48:32Z</createdon>
+		<completed>false</completed>
+		<milestone>M1 version 1</milestone>
+	<stats>
+										<passed>
+			<percent>0</percent>
+			<count>0</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>100</percent>
+			<count>1</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<tests>
+																																																																								<test>
+				<id>T1</id>
+				<title>Sprawdzenie wyświetlania się sub-menu do każdej sekcji w menu głównym</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>1200</estimate>
+																								<references>C1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Sprawdzamy funkcjonalność sklepu internetowego &quot;Your Logo&quot;: http://automationpractice.com/index.php
+Po najechaniu kursorem myszki powinno się wyświetlić sub-menu do każdej sekcji menu głównego. Mamy trzy sekcje główne: Women, Dress, T-shirts i do każdej z nich powinno wyświetlać się podmenu (sub-menu). 
+Wstępne założenia: nie zalogowany użytkownik sprawdza wyświetlanie sub-menu na stronie sklepu.
+Oczekiwany rezultat: Po najechaniu myszką na każdą sekcję menu głównego otrzymamy wyświetlone sub-menu.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Użytkownik klika na link do strony sklepu</content><expected>Użytkownik widzi stronę sklepu &quot;Your Logo&quot;
+
+</expected></step>
+<step>
+<index>2</index><content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;Women&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected></step>
+<step>
+<index>3</index><content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;Dress&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected></step>
+<step>
+<index>4</index><content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;T-shirts&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C1</caseid>
+																<status>Failed</status>
+																<assignedto>Magdalena Kokot</assignedto>
+																<inprogress></inprogress>
+																																										<elapsed>1259</elapsed>
+																																																						<changes>
+															<change>
+						<createdon>2022-01-04T12:13:20Z</createdon>
+																		<createdby>Magdalena Kokot</createdby>
+												<status>Failed</status>
+																								<assignedto>Magdalena Kokot</assignedto>
+																		<comment>Do poprawy. Wszystkie sugestie zawarte są w komentarzach do run testu</comment>
+																		<version>Version 1</version>
+																														<elapsed>1259</elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Użytkownik klika na link do strony sklepu</content><expected>Użytkownik widzi stronę sklepu &quot;Your Logo&quot;
+
+</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;Women&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;Dress&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;T-shirts&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+															<change>
+						<createdon>2022-01-04T12:03:42Z</createdon>
+																		<createdby>Magdalena Kokot</createdby>
+												<status></status>
+																								<assignedto>Magdalena Kokot</assignedto>
+																		<comment>![](index.php?/attachments/get/1533fe65-4930-44eb-952d-bbf03330dc88)![](index.php?/attachments/get/edb65fb8-848f-449a-96fd-4b879890ccf1)![](index.php?/attachments/get/5cf886b9-356b-47da-9e36-4172e0663d4a)</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-01-04T11:48:32Z</createdon>
+																		<createdby>Magdalena Kokot</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>				</runs>
+</milestone>

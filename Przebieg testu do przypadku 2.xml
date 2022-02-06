@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R2</id>
+	<name>Test Run do C2/4/2022</name>
+	<description>Sprawdzenie czy banery reklamowe przenoszą do strony z reklamą, której dotyczyły.</description>
+	<config></config>
+	<createdon>2022-01-04T12:24:36Z</createdon>
+		<completed>false</completed>
+		<milestone>M2 version 1</milestone>
+	<stats>
+										<passed>
+			<percent>0</percent>
+			<count>0</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>100</percent>
+			<count>1</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<tests>
+																																																																																							<test>
+				<id>T2</id>
+				<title>Sprawdzenie wyświetlania się reklam przy pomocy banerów reklamowych umieszczonych na stronie sklepu internetowego &quot;Your Logo&quot;</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>1200</estimate>
+																								<references>C2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Sprawdzamy funkcjonalność sklepu internetowego &quot;Your Logo&quot;: http://automationpractice.com/index.php
+Po kliknięciu lewym przyciskiem myszki na banery reklamowe na stronie sklepu powinna się otworzyć następnie strona z ofertami reklamowymi, którego dotyczył dany baner.
+Wstępne założenia: nie zalogowany użytkownik sprawdza wyświetlanie się reklamy po kliknięciu na banery reklamowe, na stronie sklepu.
+Oczekiwany rezultat: Po kliknięciu lewym przyciskiem myszki na każdy baner reklamowy, otwiera się strona reklamy, której dotyczył baner, wybrany przez użytkownika.
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Użytkownik otwiera stronę sklepu poprzez kliknięcie na link </content><expected>Użytkownik widzi stronę sklepu &quot;Your Logo&quot;</expected></step>
+<step>
+<index>2</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;EXCEPTEUR OCCAECAT&quot; </content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>3</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;3 Days Sale get up to 25% OFF&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>4</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;Only Online Summer Collection 45% OFF&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>5</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;TOP TRENDS&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>6</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;MEN&apos;S COAT &amp; JACKET&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>7</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;WOMEN&apos;S COAT &amp; JACKET&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>8</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;SUNGLASSES &amp; EYEWEAR&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>9</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;SAVVY TRENDS HANDBAGS&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C2</caseid>
+																<status>Failed</status>
+																<assignedto>Magdalena Kokot</assignedto>
+																<inprogress></inprogress>
+																																										<elapsed>1476</elapsed>
+																																																						<changes>
+															<change>
+						<createdon>2022-01-04T12:49:30Z</createdon>
+																		<createdby>Magdalena Kokot</createdby>
+												<status>Failed</status>
+																								<assignedto>Magdalena Kokot</assignedto>
+																		<comment>Żaden baner nie przenosi użytkownika na stronę  reklamy której dotyczy.
+Wszystkie komentarze są ujęte w run test.</comment>
+																		<version>version 1</version>
+																														<elapsed>1476</elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Użytkownik otwiera stronę sklepu poprzez kliknięcie na link </content><expected>Użytkownik widzi stronę sklepu &quot;Your Logo&quot;</expected><actual></actual><status>Failed</status></step>
+<step>
+<content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;EXCEPTEUR OCCAECAT&quot; </content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected><actual></actual><status>Failed</status></step>
+<step>
+<content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;3 Days Sale get up to 25% OFF&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected><actual></actual><status>Failed</status></step>
+<step>
+<content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;Only Online Summer Collection 45% OFF&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected><actual></actual><status>Failed</status></step>
+<step>
+<content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;TOP TRENDS&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected><actual></actual><status>Failed</status></step>
+<step>
+<content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;MEN&apos;S COAT &amp; JACKET&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected><actual></actual><status>Failed</status></step>
+<step>
+<content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;WOMEN&apos;S COAT &amp; JACKET&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected><actual></actual><status>Failed</status></step>
+<step>
+<content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;SUNGLASSES &amp; EYEWEAR&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected><actual></actual><status>Failed</status></step>
+<step>
+<content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;SAVVY TRENDS HANDBAGS&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+															<change>
+						<createdon>2022-01-04T12:46:27Z</createdon>
+																		<createdby>Magdalena Kokot</createdby>
+												<status></status>
+												<assignedto></assignedto>
+												<comment>![](index.php?/attachments/get/eec4a4a7-06ea-42d9-ba64-932f26de568d)![](index.php?/attachments/get/b2f4c77d-1c60-494f-8de6-bc8773cf09f3)</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-01-04T12:37:48Z</createdon>
+																		<createdby>Magdalena Kokot</createdby>
+												<status></status>
+																								<assignedto>Magdalena Kokot</assignedto>
+																		<comment>![](index.php?/attachments/get/37c3269d-2e74-41eb-bf42-cbae7a671217)![](index.php?/attachments/get/c4dc3988-4daa-4d1a-803b-15c0b6657fda)![](index.php?/attachments/get/d54b4f8e-84b9-4f24-81ea-1a7d4c70bf9e)</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-01-04T12:24:36Z</createdon>
+																		<createdby>Magdalena Kokot</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>

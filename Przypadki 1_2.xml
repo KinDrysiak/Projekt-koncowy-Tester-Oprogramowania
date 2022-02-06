@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Sprawdzenie wyświetlania się sub-menu do każdej sekcji w menu głównym</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>1200</estimate>
+																								<references>C1</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Sprawdzamy funkcjonalność sklepu internetowego &quot;Your Logo&quot;: http://automationpractice.com/index.php
+Po najechaniu kursorem myszki powinno się wyświetlić sub-menu do każdej sekcji menu głównego. Mamy trzy sekcje główne: Women, Dress, T-shirts i do każdej z nich powinno wyświetlać się podmenu (sub-menu). 
+Wstępne założenia: nie zalogowany użytkownik sprawdza wyświetlanie sub-menu na stronie sklepu.
+Oczekiwany rezultat: Po najechaniu myszką na każdą sekcję menu głównego otrzymamy wyświetlone sub-menu.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Użytkownik klika na link do strony sklepu</content><expected>Użytkownik widzi stronę sklepu &quot;Your Logo&quot;
+
+</expected></step>
+<step>
+<index>2</index><content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;Women&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected></step>
+<step>
+<index>3</index><content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;Dress&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected></step>
+<step>
+<index>4</index><content>Użytkownik najeżdża kursorem myszki na główne menu na pole &quot;T-shirts&quot;</content><expected>Użytkownik widzi rozwijające się sub-menu</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Sprawdzenie wyświetlania się reklam przy pomocy banerów reklamowych umieszczonych na stronie sklepu internetowego &quot;Your Logo&quot;</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																				<estimate>1200</estimate>
+																								<references>C2</references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Sprawdzamy funkcjonalność sklepu internetowego &quot;Your Logo&quot;: http://automationpractice.com/index.php
+Po kliknięciu lewym przyciskiem myszki na banery reklamowe na stronie sklepu powinna się otworzyć następnie strona z ofertami reklamowymi, którego dotyczył dany baner.
+Wstępne założenia: nie zalogowany użytkownik sprawdza wyświetlanie się reklamy po kliknięciu na banery reklamowe, na stronie sklepu.
+Oczekiwany rezultat: Po kliknięciu lewym przyciskiem myszki na każdy baner reklamowy, otwiera się strona reklamy, której dotyczył baner, wybrany przez użytkownika.
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Użytkownik otwiera stronę sklepu poprzez kliknięcie na link </content><expected>Użytkownik widzi stronę sklepu &quot;Your Logo&quot;</expected></step>
+<step>
+<index>2</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;EXCEPTEUR OCCAECAT&quot; </content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>3</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;3 Days Sale get up to 25% OFF&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>4</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;Only Online Summer Collection 45% OFF&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>5</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;TOP TRENDS&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>6</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;MEN&apos;S COAT &amp; JACKET&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>7</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;WOMEN&apos;S COAT &amp; JACKET&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>8</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;SUNGLASSES &amp; EYEWEAR&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+<step>
+<index>9</index><content>Użytkownik klika lewym przyciskiem myszy na baner reklamowy &quot;SAVVY TRENDS HANDBAGS&quot;</content><expected>Otwiera się strona reklamy, której baner reklamowy dotyczył.</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
