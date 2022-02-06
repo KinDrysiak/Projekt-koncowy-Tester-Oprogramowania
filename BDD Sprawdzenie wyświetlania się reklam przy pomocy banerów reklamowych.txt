@@ -1,0 +1,39 @@
+Scenariusz 1: Wyświetlanie się reklamy do baneru "EXCEPTEUR OCCAECAT"
+Given: Jestem na stronie sklepu 
+When: Klikam lewym przyciskiem myszy na baner reklamowy "EXCEPTEUR OCCAECAT"
+Then: Otwiera się strona z reklamą dotyczącą baneru
+
+Scenariusz 2: Wyświetlanie się reklamy do baneru "3 Days Sale get up to 25% OFF"
+Given: Jestem na stronie sklepu 
+When: Klikam lewym przyciskiem myszy na baner reklamowy "3 Days Sale get up to 25% OFF"
+Then: Otwiera się strona z reklamą dotyczącą baneru
+
+Scenariusz 3: Wyświetlanie się reklamy do baneru "Only Online Summer Collection 45% OFF"
+Given: Jestem na stronie sklepu 
+When: Klikam lewym przyciskiem myszy na baner reklamowy "Only Online Summer Collection 45% OFF"
+Then: Otwiera się strona z reklamą dotyczącą baneru
+
+Scenariusz 4: Wyświetlanie się reklamy do baneru "TOP TRENDS"
+Given: Jestem na stronie sklepu 
+When: Klikam lewym przyciskiem myszy na baner reklamowy "TOP TRENDS"
+Then: Otwiera się strona z reklamą dotyczącą baneru
+
+Scenariusz 5: Wyświetlanie się reklamy do baneru "MEN'S COAT & JACKET"
+Given: Jestem na stronie sklepu 
+When: Klikam lewym przyciskiem myszy na baner reklamowy "MEN'S COAT & JACKET"
+Then: Otwiera się strona z reklamą dotyczącą baneru
+
+Scenariusz 6: Wyświetlanie się reklamy do baneru "WOMEN'S COAT & JACKET"
+Given: Jestem na stronie sklepu 
+When: Klikam lewym przyciskiem myszy na baner reklamowy "WOMEN'S COAT & JACKET"
+Then: Otwiera się strona z reklamą dotyczącą baneru
+
+Scenariusz 7: Wyświetlanie się reklamy do baneru "SUNGLASSES & EYEWEAR"
+Given: Jestem na stronie sklepu 
+When: Klikam lewym przyciskiem myszy na baner reklamowy "SUNGLASSES & EYEWEAR"
+Then: Otwiera się strona z reklamą dotyczącą baneru
+
+Scenariusz 8: Wyświetlanie się reklamy do baneru "SAVVY TRENDS HANDBAGS"
+Given: Jestem na stronie sklepu 
+When: Klikam lewym przyciskiem myszy na baner reklamowy "SAVVY TRENDS HANDBAGS"
+Then: Otwiera się strona z reklamą dotyczącą baneru

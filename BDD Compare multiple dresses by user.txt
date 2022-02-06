@@ -1,0 +1,17 @@
+Scenario 1: Log-in registered user on the shop website
+Given: I am on the shop website 
+When: I click "Sign in" on the taskbar 
+And: I see website with authentication
+Then: I write email address and password in section "Already registered" 
+And: I click sign in 
+Then: I am on the website as a login user 
+
+Scenario 2: Comparison by push the button "add to compare"
+Given: I am on the shopping website
+When: I push once the button "add to compare"
+Then: I see added 1 dress to comparison
+And: I push two times again the button "add to compare"
+Then: I see added 3 dress to comparison
+And: I push once again the button "add to compare"
+Then: I see error mesage on the website
+

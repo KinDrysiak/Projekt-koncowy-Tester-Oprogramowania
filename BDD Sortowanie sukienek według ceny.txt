@@ -1,0 +1,11 @@
+Scenariusz 1: Główna strona sklepu "Your logo"
+Given: Jestem na stronie sklepu
+When: Klikam na przycisk sukienki
+Then: Pokazują mi się tylko sukienki
+
+Scenariusz 2: Sortowanie według ceny
+Given: Na stronie wyświetlają się sukienki
+When: Klikam w listę sortowania
+And: Wybieram sortowanie według ceny od najwyższej
+Then: Wyświetla mi się strona sklepu z posortowanymi sukienkami według ceny
+

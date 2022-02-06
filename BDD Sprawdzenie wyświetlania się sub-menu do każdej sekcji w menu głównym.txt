@@ -1,0 +1,14 @@
+Scenariusz 1: Wyświetlanie sub-menu do pola "Women"
+Given: Jestem na stronie sklepu 
+When: Najeżdżam kursorem na na główne menu na pole "Women"
+Then: Widzę rozwijające się sub-menu
+
+Scenariusz 2: Wyświetlanie sub-menu do pola "Dress"
+Given: Jestem na stronie sklepu 
+When: Najeżdżam kursorem na na główne menu na pole "Dress"
+Then: Widzę rozwijające się sub-menu
+
+Scenariusz 3: Wyświetlanie sub-menu do pola "T-shirts"
+Given: Jestem na stronie sklepu 
+When: Najeżdżam kursorem na na główne menu na pole "T-shirts"
+Then: Widzę rozwijające się sub-menu
